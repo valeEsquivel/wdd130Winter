@@ -35,7 +35,7 @@ footer {
     line-height: 1.5em;
 }
 
-#active {
+a:hover {
     background-color: white;
     color: steelblue;
 }

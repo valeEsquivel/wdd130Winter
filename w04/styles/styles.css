@@ -1,0 +1,57 @@
+body {
+    background-color: pink;
+}
+
+main {
+    text-align: center;
+}
+
+#title {
+    color: white;
+    font-size: 2.5em;
+}
+
+#title:hover {
+    color: black;
+}
+
+#text1 {
+    color: white;
+}
+
+#author {
+    color: white;
+    font-weight: bold;
+}
+
+#cita {
+    color: white;
+    font-size: 2em;
+    width: 15%;
+    margin: 0 auto;
+}
+
+ul {
+    color: black;
+    font-weight: bold;
+    margin: 0 auto;
+    margin-left: 35%;
+    align-self: center;
+    text-align: left;
+    list-style: none;
+    line-height: 30px;
+}
+
+img {
+    width: 15%;
+    height: 15%;
+    display: block;
+    margin: 0 auto;
+}
+
+footer p {
+    color: black;
+    margin: 0 auto;
+    text-align: center;
+    width: 15%;
+}
