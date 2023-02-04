@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+}
+
+header {
+    margin: 0;
+    max-width: 100%;
+    text-align: center;
+}
+
+main{
+    margin: 0;
+    background-color: gray;
+}
+
+#containerImg img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%; 
+    border-color: darkgray;
+    border-style: solid;
+    border-width: 15px;
+    margin-left: 15px;
+}
+
+#containerImg {
+    margin: 0 auto;
+    text-align: center;
+}

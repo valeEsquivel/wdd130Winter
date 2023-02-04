@@ -1,3 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Quicksand&display=swap');
+
+:root {
+    --heading-font: "Amatic SC";
+    --paragraph-font: Quicksand, Helvetica, sans-serif;
+    --primary-color: #184e77;
+    --secondary-color: #1e6091 ;
+    --accent1-color: #34a0a4;
+    --accent2-color: #76c893;
+    --accent3-color: #99d98c;
+}
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -7,9 +19,11 @@ nav a {
     text-align: center;
     color: white;
     text-decoration: none;
+    padding: 35px;
 }
 
-#hero-msg h1, #hero-msg h4 {
+#hero-msg h1,
+#hero-msg h4 {
     text-align: center;
 }
 
@@ -30,6 +44,12 @@ body {
     background-color: white;
     margin: 0;
     padding: 0;
+    font-size: 22px;
+    font-family: var(--heading-font);
+}
+
+p {
+    font-family: var(--paragraph-font);
 }
 
 header {
@@ -41,41 +61,99 @@ nav a:hover {
     background-color: white;
 }
 
-.book, .join {
-    background-color: #34a0a4;
-    color: white;
+.book,
+.join {
+    background-color: #99d98c;
+    color: black;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+    font-size: 18px;
+    text-decoration: none;
 }
 
-.book:hover, .join:hover {
+.book:hover,
+.join:hover {
     color: white;
     background-color: #184e77;
 }
 
 .msg {
     background-color: #34a0a4;
+    line-height: 1.5em;
+    padding: 35px;
+    margin-top: 100px;
+}
+
+.msg p {
+    padding-bottom: 15px;
+    font-size: 20px;
 }
 
 footer {
     background-color: #34a0a4;
     color: white;
+    padding: 25px 20px;
+    margin-top: 200px;
 }
 
 footer p {
-    font-size: 1.2em;
-}    
+    font-size: 0.75em;
+}
+
+footer a {
+    text-decoration: none;
+}
 
 footer p a:hover {
     text-decoration: underline;
 }
 
+footer .social img {
+    padding-top: 15px;
+}
+
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 
-.logo{
+.logo {
     width: 80px;
 }
 
-#hero-img{
+#hero-img {
     width: 100%;
+}
+
+.home-title {
+    font-family: Quicksand, Helvetica, sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
+}
+
+h2 {
+    margin: 0;
+}
+
+#logo_link {
+    padding-top: 5px;
+}
+
+.rivers-card,
+.camping-card,
+.rapids-card {
+    margin: 200px 0;
+}
+
+.card-img{
+    border: 10px solid var(--accent2-color);
+}
+
+main section img {
+    box-sizing: border-box;
+}
+
+.mountains{
+    margin-top: 100px;
 }
