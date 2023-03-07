@@ -220,6 +220,78 @@ main section img {
     box-shadow: 5px 5px 10px #6f7364;
 }
 
+/* Page Rivers Start */
+#rivers-head {
+    text-align: center;
+}
+
+#text-p-rivers{
+    font-size: 15px;
+}
+
+.rivers-grid {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    /* justify-content: space-around; */
+}
+
+#background1 {
+    height: 800px;
+    background-color: #99d98c;
+    grid-column: 2/4;
+    grid-row: 1/12;
+}
+
+.salmonRiverImg{
+    width: 100%;
+    grid-column: 2/4;
+    grid-row: 1/7;
+}
+
+.msg-salmonRiver{
+    grid-column: 2/4;
+    grid-row: 6/12;
+    font-size: 14px;
+}
+
+#background2 {
+    height: 800px;
+    background-color: #99d98c;
+    grid-column: 5/7;
+    grid-row: 1/12;
+}
+
+.grayCanyonImg{
+    width: 100%;
+    grid-column: 5/7;
+    grid-row: 1/7;
+}
+
+.msg-grayCanyon{
+    grid-column: 5/7;
+    grid-row: 6/12;
+    font-size: 14px;
+}
+
+#background3 {
+    height: 800px;
+    background-color: #99d98c;
+    grid-column: 8/10;
+    grid-row: 1/12;
+}
+
+.grandCanyonImg{
+    width: 100%;
+    grid-column: 8/10;
+    grid-row: 1/7;
+}
+
+.msg-grandCanyon{
+    grid-column: 8/10;
+    grid-row: 6/12;
+    font-size: 14px;
+}
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
