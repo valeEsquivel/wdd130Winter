@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- <link rel="stylesheet" href="styles/styles.css" /> -->
+    <link rel="stylesheet" href="styles/styles.css" />
     <title>EO Events | Home</title>
   </head>
   <body>
@@ -20,57 +20,104 @@
         </nav>
       </header>
       <main>
-        <img
-          class="plan-img"
-          src="images/babyShower.jpg"
-          alt="image for homepage"
-          width="800px"
-          height="600px"
-        />
+        <div class="slide">
+          <div class="slide-inner">
+            <input
+              class="slide-open"
+              type="radio"
+              id="slide-1"
+              name="slide"
+              aria-hidden="true"
+              hidden=""
+              checked="checked"
+            />
+            <div class="slide-item">
+              <img
+                class="plan-img"
+                src="images/babyShower.jpg"
+                alt="image for homepage"
+              />
+            </div>
+            <input
+              class="slide-open"
+              type="radio"
+              id="slide-2"
+              name="slide"
+              aria-hidden="true"
+              hidden=""
+            />
+            <div class="slide-item">
+              <img
+                class="plan-img"
+                src="images/ev2.jpg"
+                alt="image for homepage"
+              />
+            </div>
+            <input
+              class="slide-open"
+              type="radio"
+              id="slide-3"
+              name="slide"
+              aria-hidden="true"
+              hidden=""
+            />
+            <div class="slide-item">
+              <img
+                class="plan-img"
+                src="images/corporateEvent.jpg"
+                alt="image for homepage"
+              />
+            </div>
+            <label for="slide-3" class="slide-control prev control-1">‹</label>
+            <label for="slide-2" class="slide-control next control-1">›</label>
+            <label for="slide-1" class="slide-control prev control-2">‹</label>
+            <label for="slide-3" class="slide-control next control-2">›</label>
+            <label for="slide-2" class="slide-control prev control-3">‹</label>
+            <label for="slide-1" class="slide-control next control-3">›</label>
+            <ol class="slide-indicador">
+              <li>
+                <label for="slide-1" class="slide-circulo">•</label>
+              </li>
+              <li>
+                <label for="slide-2" class="slide-circulo">•</label>
+              </li>
+              <li>
+                <label for="slide-3" class="slide-circulo">•</label>
+              </li>
+            </ol>
+          </div>
+        </div>
+
         <br />
-        <img
-          class="plan-img"
-          src="images/ev10.jpg"
-          alt="image for homepage"
-          width="800px"
-          height="600px"
-        />
-        <img
-          class="plan-img"
-          src="images/ev1.jpg"
-          alt="image for homepage"
-        />
-        <img
-          class="plan-img"
-          src="images/ev2.jpg"
-          alt="image for homepage"
-        />
-        <img
-          class="plan-img"
-          src="images/ev11.jpg"
-          alt="image for homepage"
-        />
-        <p>
-          Do you want to have an unforgettable event? We are here to help you,
-          we have the best plans for your event. You won't have to worry about
-          the decoration, we will take care of everything, we will make your
-          event a success. We count with a variety of plans for you to choose
-          from, you can choose the one that fits your needs.
-        </p>
-        <img
-          class="plan-img"
-          src="images/centrosMesa.jpg"
-          alt="image for homepage"
-          width="380px"
-          height="400px"
-        />
-        <img
-          class="plan-img"
-          src="images/plans.png"
-          alt="image for homepage"
-          width="400px"
-          height="400px"
-        />
+        <div class="contentHome">
+          <p id="home-text">
+            Do you want to have an unforgettable event? We are here to help you,
+            we have the best plans for your event. You won't have to worry about
+            the decoration, we will take care of everything, we will make your
+            event a success. We count with a variety of plans for you to choose
+            from, you can choose the one that fits your needs.
+          </p>
+          <div id="home-img1">
+            <a href="events.html">
+              <img
+              class="home-img"
+              src="images/centrosMesa.jpg"
+              alt="image for homepage"
+              title="Events"
+              />
+            </a>
+          </div>
+          <div id="home-img2">
+            <a href="plans.html">
+              <img
+              class="home-img"
+              src="images/plans.png"
+              alt="image for homepage"
+              title="Plans"
+              />
+            </a>
+          </div>
+        </div>
       </main>
       <footer>
         <p>EO Events &copy; 2023 - Valeria Esquivel</p>
