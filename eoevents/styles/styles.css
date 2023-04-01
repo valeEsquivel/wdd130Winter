@@ -306,3 +306,86 @@ h2 {
     width: 100%;
     grid-column: 4/7;
 }
+
+/* PLANS PAGE */
+.contentPlan {
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.contentPlan h3 {
+    text-align: center;
+    font-size: 30px;
+    color: var(--headline-color-on-white);
+    grid-column: 1/4;
+}
+
+.planCard {
+    float: left;
+    /* width: 33.3%; */
+    grid-column: 1fr;
+    padding: 8px;
+}
+
+/* Style the list */
+.description {
+    list-style-type: none;
+    border: 1px solid #eee;
+    margin: 0;
+    padding: 0;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+
+/* Add shadows on hover */
+.description:hover {
+    box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2)
+}
+
+/* Pricing header */
+.description .header {
+    background-color: #fff;
+    font-size: 25px;
+}
+
+/* List items */
+.description li {
+    border-bottom: 1px solid #eee;
+    padding: 20px;
+    text-align: center;
+    font-family: var(--paragraph-font);
+}
+
+/* Grey list item */
+.description .grey {
+    background-color: #eee;
+    font-size: 20px;
+    font-family: var(--heading-font);
+    font-size: bold;
+}
+
+/* The "Sign Up" button */
+.button {
+    background-color: var(--accent2-color);
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.imgPlan {
+    width: 20%;
+    height: 20%;
+    border-radius: 25px;
+}
+
+/* Change the width of the three columns to 100%
+  (to stack horizontally on small screens) */
+@media only screen and (max-width: 600px) {
+    .columns {
+        width: 100%;
+    }
+}
