@@ -336,6 +336,7 @@ h2 {
     padding: 0;
     -webkit-transition: 0.3s;
     transition: 0.3s;
+    height: 100%;
 }
 
 /* Add shadows on hover */
