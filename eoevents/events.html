@@ -1,17 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- <link rel="stylesheet" href="styles/styles.css" /> -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/styles.css">
     <title>EO Events | Events</title>
   </head>
   <body>
     <div id="content">
       <header>
         <a id="logo_link" href="index.html">
-          <img class="logo" src="images/E0.png" alt="EO Events Logo" />
+          <img class="logo" src="images/E0.png" alt="EO Events Logo" >
         </a>
         <nav>
           <a href="index.html">Home</a>
@@ -20,79 +20,228 @@
         </nav>
       </header>
       <main>
-        <h3>Events</h3>
-        <p>
-          Looking for something specific? We have a variety of events that you
-          can choose from, let us show you how we can make your event a success.
-          Here is a list of some of our events: sex revelation, baby shower,
-          birthday party, graduation party, Christmas party, weddings, theme
-          parties, and corporate events.
-        </p>
-        <h4>Delivery of decorations</h4>
-        <img
-          class="plan-img"
-          src="images/revealParty.jpg"
-          alt="image for page"
-        />
-        <img
-          class="plan-img"
-          src="images/ev.jpg"
-          alt="image for page"
-        />
-        <img
-          class="plan-img"
-          src="images/ev5.jpg"
-          alt="image for page"
-        />
-        <p>
-          Which consists of working on the decorations for the event, and set a
-          delivery date to take it to a previously agreed place or the client
-          can pick it up at our facilities.
-        </p>
-        <h4>Make and assemble decoration</h4>
-        <img
-          class="plan-img"
-          src="images/corporateEvent.jpg"
-          alt="image for page"
-        />
-        <img
-          class="plan-img"
-          src="images/ev6.jpg"
-          alt="image for page"
-        />
-        <img
-          class="plan-img"
-          src="images/ev7.jpg"
-          alt="image for page"
-        />
-        <p>
-          The team will move to the place of the event designated by the client
-          to decorate it.
-        </p>
-        <h4>Complete Package</h4>
-        <img class="plan-img" src="images/ev4.jpeg" alt="image for page" />
-        <img class="plan-img" src="images/ev8.jpg" alt="image for page" />
-        <img class="plan-img" src="images/ev9.jpg" alt="image for page" />
-        <p>
-          We have events hall which will be rented and all the decoration will
-          be assembled there.
-        </p>
+        <div class="eventsContent">
+          <h3>Events</h3>
+          <p id="textEvents">
+            Looking for something specific? We have a variety of events that you
+            can choose from, let us show you how we can make your event a
+            success. Here is a list of some of our events: sex revelation, baby
+            shower, birthday party, graduation party, Christmas party, weddings,
+            theme parties, and corporate events.
+          </p>
+          <div id="background1"></div>
+          <section class="delivery-section">
+            <div class="images1">
+              <div class="slideshow-container">
+                <!-- Full-width images with number and caption text -->
+                <div class="mySlides fade">
+                  <img class="plan-img1" src="images/revealParty.jpg" alt="image for page" >
+                </div>
+                <div class="mySlides fade">
+                  <img class="plan-img1" src="images/ev.jpg" alt="image for page" >
+                </div>
+                <div class="mySlides fade">
+                  <img class="plan-img1" src="images/ev5.jpg" alt="image for page" >
+                </div>
+              </div>
+              <!-- The dots/circles -->
+              <div style="text-align: center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+              </div>
+            </div>
+            <div class="text1">
+              <h4>Delivery of decorations</h4>
+              <p>
+                Which consists of working on the decorations for the event, and
+                set a delivery date to take it to a previously agreed place or
+                the client can pick it up at our facilities.
+              </p>
+            </div>
+          </section>
+          <div id="background2"></div>
+          <section class="assemble-section">
+            <div class="images2">
+              <div class="slideshow-container">
+                <!-- Full-width images with number and caption text -->
+                <div class="mySlides2 fade">
+                  <img class="plan-img2" src="images/corporateEvent.jpg" alt="image for page" >
+                </div>
+                <div class="mySlides2 fade">
+                  <img class="plan-img2" src="images/ev6.jpg" alt="image for page" >
+                </div>
+                <div class="mySlides2 fade">
+                  <img class="plan-img2" src="images/ev7.jpg" alt="image for page" >
+                </div>
+              </div>
+              <!-- The dots/circles -->
+              <div style="text-align: center">
+                <span class="dot2" onclick="currentSlide2(1)"></span>
+                <span class="dot2" onclick="currentSlide2(2)"></span>
+                <span class="dot2" onclick="currentSlide2(3)"></span>
+              </div>
+            </div>
+            <div class="text2">
+              <h4>Make and assemble decoration</h4>
+              <p>
+                The team will move to the place of the event designated by the
+                client to decorate it.
+              </p>
+            </div>
+          </section>
+          <div id="background3"></div>
+          <section class="complete-section">
+            <div class="images3">
+              <div class="slideshow-container">
+                <!-- Full-width images with number and caption text -->
+                <div class="mySlides3 fade">
+                  <img class="plan-img3" src="images/ev4.jpeg" alt="image for page" >
+                </div>
+                <div class="mySlides3 fade">
+                  <img class="plan-img3" src="images/ev8.jpg" alt="image for page" >
+                </div>
+                <div class="mySlides3 fade">
+                  <img class="plan-img3" src="images/ev9.jpg" alt="image for page" >
+                </div>
+              </div>
+              <!-- The dots/circles -->
+              <div style="text-align: center">
+                <span class="dot3" onclick="currentSlide3(1)"></span>
+                <span class="dot3" onclick="currentSlide3(2)"></span>
+                <span class="dot3" onclick="currentSlide3(3)"></span>
+              </div>
+            </div>
+            <div class="text3">
+              <h4>Complete Package</h4>
+              <p>
+                We have events hall which will be rented and all the decoration
+                will be assembled there.
+              </p>
+            </div>
+          </section>
+        </div>
       </main>
       <footer>
         <p>EO Events &copy; 2023 - Valeria Esquivel</p>
         <p><a href="site-plan.html">Site Plan</a></p>
         <div class="social">
           <a href="https://facebook.com" target="_blank">
-            <img src="images/facebook.png" alt="fb icon" />
+            <img src="images/facebook.png" alt="fb icon" >
           </a>
           <a href="https://twitter.com" target="_blank">
-            <img src="images/twitter.png" alt="twitter icon" />
+            <img src="images/twitter.png" alt="twitter icon" >
           </a>
           <a href="https://instagram.com" target="_blank">
-            <img src="images/instagram.png" alt="instagram icon" />
+            <img src="images/instagram.png" alt="instagram icon" >
           </a>
         </div>
       </footer>
     </div>
   </body>
+  <script>
+    let slideIndex = 1;
+    showSlides(slideIndex);
+    showSlides2(slideIndex);
+    showSlides3(slideIndex);
+
+    // Thumbnail image controls delivery
+    function currentSlide(n) {
+      showSlides((slideIndex = n));
+    }
+
+    function showSlides(n) {
+      let i;
+      let slides = document.getElementsByClassName("mySlides");
+      let dots = document.getElementsByClassName("dot");
+      if (n > slides.length) {
+        slideIndex = 1;
+      }
+      if (n < 1) {
+        slideIndex = slides.length;
+      }
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex - 1].style.display = "block";
+      dots[slideIndex - 1].className += " active";
+    }
+
+    // Thumbnail image controls assemble
+    function currentSlide2(n) {
+      showSlides2((slideIndex = n));
+    }
+
+    function showSlides2(n) {
+      let i;
+      let slides = document.getElementsByClassName("mySlides2");
+      let dots = document.getElementsByClassName("dot22");
+      if (n > slides.length) {
+        slideIndex = 1;
+      }
+      if (n < 1) {
+        slideIndex = slides.length;
+      }
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex - 1].style.display = "block";
+      dots[slideIndex - 1].className += " active";
+    }
+    // Thumbnail image controls assemble
+    function currentSlide2(n) {
+      showSlides2((slideIndex = n));
+    }
+
+    function showSlides2(n) {
+      let i;
+      let slides = document.getElementsByClassName("mySlides2");
+      let dots = document.getElementsByClassName("dot2");
+      if (n > slides.length) {
+        slideIndex = 1;
+      }
+      if (n < 1) {
+        slideIndex = slides.length;
+      }
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex - 1].style.display = "block";
+      dots[slideIndex - 1].className += " active";
+    }
+
+    // Thumbnail image controls complete
+    function currentSlide3(n) {
+      showSlides3((slideIndex = n));
+    }
+
+    function showSlides3(n) {
+      let i;
+      let slides = document.getElementsByClassName("mySlides3");
+      let dots = document.getElementsByClassName("dot3");
+      if (n > slides.length) {
+        slideIndex = 1;
+      }
+      if (n < 1) {
+        slideIndex = slides.length;
+      }
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex - 1].style.display = "block";
+      dots[slideIndex - 1].className += " active";
+    }
+  </script>
 </html>
