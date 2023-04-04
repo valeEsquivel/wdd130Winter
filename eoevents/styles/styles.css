@@ -312,6 +312,7 @@ h2 {
     box-sizing: border-box;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
 }
 
 .contentPlan h3 {
