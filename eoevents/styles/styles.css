@@ -321,10 +321,23 @@ h2 {
     grid-column: 1/4;
 }
 
-.planCard {
+.planCardB {
     float: left;
     /* width: 33.3%; */
-    grid-column: 1fr;
+    grid-column: 1/2;
+    padding: 8px;
+}
+
+.planCardM {
+    float: left;
+    /* width: 33.3%; */
+    grid-column: 2/3;
+    padding: 8px;
+}
+.planCardV {
+    float: left;
+    /* width: 33.3%; */
+    grid-column: 3/4;
     padding: 8px;
 }
 
@@ -363,7 +376,7 @@ h2 {
     background-color: #eee;
     font-size: 20px;
     font-family: var(--heading-font);
-    font-size: bold;
+    font-weight: bold;
 }
 
 /* The "Sign Up" button */
@@ -386,7 +399,7 @@ h2 {
 /* Change the width of the three columns to 100%
   (to stack horizontally on small screens) */
 @media only screen and (max-width: 600px) {
-    .columns {
+    .contentPlan, .plancard {
         width: 100%;
     }
 }
