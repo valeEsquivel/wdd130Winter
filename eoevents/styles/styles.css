@@ -403,7 +403,7 @@ h2 {
     box-sizing: border-box;
     display: grid;
     grid-template-columns: repeat(8, 1fr);
-    grid-template-rows: 12;
+    grid-template-rows: 12fr;
     grid-gap: 20px;
 }
 
@@ -439,7 +439,7 @@ h2 {
     grid-row: 3/4;
     display: grid;
     grid-template-columns: repeat(8, 1fr);
-    grid-template-rows: 2;
+    grid-template-rows: 2fr;
 }
 
 .text1{
@@ -469,7 +469,7 @@ h2 {
     grid-row: 4/5;
     display: grid;
     grid-template-columns: repeat(8, 1fr);
-    grid-template-rows: 2;
+    grid-template-rows: 2fr;
 }
 
 .text2{
@@ -499,7 +499,7 @@ h2 {
     grid-row: 5/6;
     display: grid;
     grid-template-columns: repeat(8, 1fr);
-    grid-template-rows: 2;
+    grid-template-rows: 2fr;
 }
 
 .text3{
